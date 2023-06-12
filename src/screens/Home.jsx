@@ -111,7 +111,7 @@ export default function Home() {
           </div>
 
           {/* Feature section with grid */}
-          <div className="relative py-16 sm:py-24 lg:py-32">
+          {/* <div className="relative py-16 sm:py-24 lg:py-32">
             <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
               <h2 className="text-lg font-semibold text-cyan-600">Plan, Travel and have fun faster</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -142,7 +142,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Testimonial section */}
+           Testimonial section 
           <div className="bg-gradient-to-r from-teal-500 to-cyan-600 pb-16 lg:relative lg:z-10 lg:pb-0">
             <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
               <div className="relative lg:-my-8">
@@ -185,7 +185,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Blog section */}
+           Blog section 
           <div className="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
             <div className="relative">
               <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
@@ -219,7 +219,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* CTA Section */}
+           CTA Section 
           <div className="relative bg-gray-900">
             <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
               <img
@@ -253,9 +253,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </main>
-        <Footer/>
       </div>
     </div>
   )
