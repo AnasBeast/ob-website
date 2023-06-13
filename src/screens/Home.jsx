@@ -7,13 +7,33 @@ import {
   CurrencyDollarIcon,
   ShieldCheckIcon,
   PaperAirplaneIcon,
+  RocketLaunchIcon,
 } from '@heroicons/react/20/solid'
 import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import {useSelector} from "react-redux"
 import NavBar from '../components/Navbar'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
-
+import {
+  ArrowUturnLeftIcon,
+  Bars3Icon,
+  ChatBubbleBottomCenterTextIcon,
+  ChatBubbleLeftEllipsisIcon,
+  ChatBubbleLeftRightIcon,
+  DocumentChartBarIcon,
+  HeartIcon,
+  InboxIcon,
+  AdjustmentsHorizontalIcon,
+  PencilSquareIcon,
+  QuestionMarkCircleIcon,
+  SparklesIcon,
+  TrashIcon,
+  UsersIcon,
+  XMarkIcon,
+  StarIcon
+} from '@heroicons/react/24/outline'
+import Carousel from '../components/Carousel'
+import Perso from '../components/Carousel'
 
 const features = [
   {
@@ -110,6 +130,105 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="relative overflow-hidden pt-16 pb-32 bg-red-900 bg-opacity-50">
+            <h1 className='text-center text-4xl sm:text-5xl text-white font-bold'>Palmares</h1>
+            <div className="relative">
+              <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+                <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+                  <div>
+                    <div>
+                      <span className="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-br from-red-600 to-white">
+                        <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                      </span>
+                    </div>
+                    <div className="mt-6">
+                      <h2 className="text-3xl font-bold tracking-tight text-white"> Coupe de Tunisie (3) : <br /> <span className='font-semibold'> Vainqueur : 1993, 2010, 2023</span> </h2>
+                    </div>
+                  </div>
+                  <div className="mt-8 border-t border-gray-200 pt-6"></div>
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FOfficielOB%2Fvideos%2F839147807568271%2F&show_text=false&width=560&t=0" 
+                    width="560" height="314" style={{border:"none",overflow:"hidden"}} onScroll={false} 
+                    frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"
+                    className='w-full'
+                    >
+
+                  </iframe>
+                </div>
+                <div className="mt-12 sm:mt-16 lg:mt-0">
+                  <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <img
+                      className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                      src="https://sport.tunisienumerique.com/wp-content/uploads/2021/05/Coupe-de-Tunisie-2021.jpg"
+                      alt="coupe-tunisie"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-24">
+              <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+                <div className="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+                  <div>
+                    <div>
+                      <span className="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-bl from-red-600 to-white">
+                        <RocketLaunchIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                      </span>
+                    </div>
+                    <div className="mt-6">
+                      <h2 className="text-3xl font-bold tracking-tight text-white">
+                      Finaliste : 1995, 1998 <br />
+                      Supercoupe de Tunisie (1) :
+                      <span className='font-semibold'>Vainqueur : 1995</span>
+                      </h2>
+
+                    </div>
+                  </div>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-URMxxAw2VdwOqjNRnU83UoJxfobZACZrJKRwnQEoboa6ctETg-kitzSMc6cuTRALsz0&usqp=CAU" alt="equipe" />
+                </div>
+                <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+                  <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <img
+                      className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                      src="https://news.gnet.tn/wp-content/uploads/2019/03/supercoupe_tunisie.jpg"
+                      alt="supercoupe"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-24">
+              <div className="lg:mx-auto lg:max-w-7xl flex flex-col justify-center items-center text-center lg:gap-24 lg:px-8">
+                <div className="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+                  <div>
+                    <div>
+                      <span className="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-bl from-red-600 to-white">
+                        <RocketLaunchIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                      </span>
+                    </div>
+                    <div className="mt-6">
+                      <h2 className="text-3xl font-bold tracking-tight text-white">
+                      Coupe de la Ligue tunisienne : <br />
+                     <span className='font-semibold'>Finaliste : 2003, 2004</span>  <br />
+                      Championnat de Tunisie D2 (3) : <br />
+                      <span className='font-semibold'>Champion : 1985, 2006, 2020</span>
+                      </h2>
+
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-8 sm:mt-12 lg:mt-0">
+                  <div className=" lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <img
+                      className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                      src="https://www.tunisie-foot.com/home/wp-content/uploads/2016/11/Trophee_CP-780x405.png"
+                      alt="supercoupe"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <Perso/>
           {/* Feature section with grid */}
           {/* <div className="relative py-16 sm:py-24 lg:py-32">
             <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
