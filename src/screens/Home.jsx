@@ -32,8 +32,7 @@ import {
   XMarkIcon,
   StarIcon
 } from '@heroicons/react/24/outline'
-import Carousel from '../components/Carousel'
-import Perso from '../components/Carousel'
+
 
 const features = [
   {
@@ -228,7 +227,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Perso/>
+          {/* <Perso/> */}
           {/* Feature section with grid */}
           {/* <div className="relative py-16 sm:py-24 lg:py-32">
             <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
