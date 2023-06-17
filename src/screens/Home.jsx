@@ -70,7 +70,7 @@ const features = [
 
 
 export default function Home() {
-  document.title = "AnasBooking | Home"
+  document.title = "Olympique de Beja | Home"
   const blogPosts = useSelector(state => state.PreferedHotels)
 
   return (
