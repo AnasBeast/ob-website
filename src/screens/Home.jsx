@@ -1,78 +1,21 @@
 
 import {
-
-  CloudArrowUpIcon,
-  CogIcon,
-  LockClosedIcon,
-  CurrencyDollarIcon,
-  ShieldCheckIcon,
-  PaperAirplaneIcon,
   RocketLaunchIcon,
 } from '@heroicons/react/20/solid'
-import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import {useSelector} from "react-redux"
 import NavBar from '../components/Navbar'
-import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import {
-  ArrowUturnLeftIcon,
-  Bars3Icon,
-  ChatBubbleBottomCenterTextIcon,
-  ChatBubbleLeftEllipsisIcon,
-  ChatBubbleLeftRightIcon,
-  DocumentChartBarIcon,
-  HeartIcon,
-  InboxIcon,
-  AdjustmentsHorizontalIcon,
-  PencilSquareIcon,
-  QuestionMarkCircleIcon,
   SparklesIcon,
-  TrashIcon,
-  UsersIcon,
-  XMarkIcon,
-  StarIcon
 } from '@heroicons/react/24/outline'
+import Perso from '../components/Carousel'
 
 
-const features = [
-  {
-    name: 'Plan Ahead',
-    description: 'Choosing us will help you get the best plan for your travel.',
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: 'Everything Explained',
-    description: 'You don\'t need to worry about your travel since we provide you with all necessary informations.',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Make a budget',
-    description: 'Traveling with us will help you making your budget so you don\'t need to worry about your pocket money.',
-    icon: CurrencyDollarIcon,
-  },
-  {
-    name: 'Assistance with travel insurance',
-    description: 'As a travel agency, we\'re aware of your health that\'s why we provide you with travel insurance in any case.',
-    icon: ShieldCheckIcon,
-  },
-  {
-    name: 'Low fare traveling',
-    description:
-      'With us, you can travel with low fare so you don\'t need to worry about flight fares.',
-    icon: CogIcon,
-  },
-  {
-    name: 'Easy to reserve',
-    description: 'You can stay updated by subscribing to our website then reserve/cancel at anytime.',
-    icon: PaperAirplaneIcon,
-  },
-]
+
 
 
 export default function Home() {
-  document.title = "Olympique de Beja | Home"
-  const blogPosts = useSelector(state => state.PreferedHotels)
-
+  document.title = "Olympique de Béja | Home"
   return (
     <div >
       <div className="relative overflow-hidden">
@@ -84,17 +27,17 @@ export default function Home() {
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full object-cover"
-                  src="https://sport.tunisienumerique.com/wp-content/uploads/2020/06/ob-%C3%A9quipe-1280x720.jpg"
+                  src={require("../assets/images/equipetop.jpg")}
                   alt="People working on laptops"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-red-900 to-gray-700 mix-blend-multiply" />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                 <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                  <span className="block text-white">Olympique de beja</span>
+                  <span className="block text-white">Olympique de béja</span>
                 </h1>
                 <p className="mx-auto mt-6 max-w-lg text-center text-xl text-red-200 sm:max-w-3xl">
-                  Website non officiel de l'équipe de football de beja.
+                  Website non officiel de l'équipe de football de béja.
                 </p>
 
               </div>
@@ -157,7 +100,7 @@ export default function Home() {
                   <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                     <img
                       className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="https://sport.tunisienumerique.com/wp-content/uploads/2021/05/Coupe-de-Tunisie-2021.jpg"
+                      src={require("../assets/images/coupe-tunisie.jpg")}
                       alt="coupe-tunisie"
                     />
                   </div>
@@ -182,13 +125,13 @@ export default function Home() {
 
                     </div>
                   </div>
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-URMxxAw2VdwOqjNRnU83UoJxfobZACZrJKRwnQEoboa6ctETg-kitzSMc6cuTRALsz0&usqp=CAU" alt="equipe" />
+                  <img src={require("../assets/images/historiqueimg.jpg")} alt="equipe" />
                 </div>
                 <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
                   <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                     <img
                       className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="https://news.gnet.tn/wp-content/uploads/2019/03/supercoupe_tunisie.jpg"
+                      src={require("../assets/images/supercoupe-tunisie.jpg")}
                       alt="supercoupe"
                     />
                   </div>
@@ -219,13 +162,17 @@ export default function Home() {
                   <div className=" lg:relative lg:m-0 lg:h-full lg:px-0">
                     <img
                       className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="https://www.tunisie-foot.com/home/wp-content/uploads/2016/11/Trophee_CP-780x405.png"
+                      src={require("../assets/images/supercoupe-tunisie.jpg")}
                       alt="supercoupe"
                     />
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div className='container mx-auto'> 
+            <h1 className='text-4xl text-white font-semibold my-8 underline'>Personnalités</h1>
+            <Perso/>
           </div>
           {/* <Perso/> */}
           {/* Feature section with grid */}
@@ -373,6 +320,7 @@ export default function Home() {
             </div>
           </div> */}
         </main>
+        <Footer/>
       </div>
     </div>
   )

@@ -11,9 +11,9 @@ import { Link } from 'react-router-dom'
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Agenda', href: '#' },
-    { name: 'Photos', href: '#' },
-    { name: 'Nous Contacter', href: '#' },
+    { name: 'Agenda', href: '/Agenda' },
+    { name: 'Photos', href: '/Photos' },
+    { name: 'Nous Contacter', href: '/Contact' },
 ]
 
 
@@ -60,7 +60,7 @@ const NavBar = () => {
                     href="mailto:boussehminea@gmail.com"
                     className="inline-flex items-center rounded-md border border-transparent bg-black px-4 py-2 text-base font-medium text-white hover:bg-gray-900"
                 >
-                    Support Us
+                    Nous Supporter
                 </a>
                 </div>
             </nav>
