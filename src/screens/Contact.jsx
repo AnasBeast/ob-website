@@ -8,8 +8,8 @@ export default function Contact() {
     <div>
       <section className="bg-black bg-opacity-50 body-font relative">
         <NavBar/>
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12">
+        <div className="container sm:px-5 py-24 mx-auto">
+          <div className="px-4 sm:px-0 flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-5xl text-3xl font-semibold title-font mb-4 text-white">
               Nous Contacter
             </h1>
@@ -17,7 +17,7 @@ export default function Contact() {
               Tu peux nous contacter via ce formulaire ou en appelant le numéro ci dessous.
             </p>
           </div>
-          <div className="w-2/3 mx-auto">
+          <div className="px-4 sm:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
@@ -29,6 +29,7 @@ export default function Contact() {
                     id="name"
                     name="name"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-red-500 ring-offset-transparen text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    placeholder="Votre Nom"
                   />
                 </div>
               </div>
@@ -45,6 +46,7 @@ export default function Contact() {
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-red-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    placeholder="example@email.com"
                   />
                 </div>
               </div>
@@ -60,6 +62,7 @@ export default function Contact() {
                     id="message"
                     name="message"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-red-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    placeholder="Message içi"
                   ></textarea>
                 </div>
               </div>

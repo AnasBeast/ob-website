@@ -9,21 +9,23 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline'
 import Perso from '../components/Carousel'
+import { useState } from 'react'
 
 
 
 
 
 export default function Home() {
-  document.title = "Olympique de Béja | Home"
+  document.title = "Olympique de Béja | Home";
+  const [readMore,setReadMore] = useState(false)
   return (
     <div >
       <div className="relative overflow-hidden">
         <NavBar/>
         <main>
         <div className="relative">
-          <div className="mx-auto max-w-5xl sm:px-6 lg:px-8 pt-4">
-            <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
+          <div className="mx-auto w-10/12 sm:max-w-5xl sm:px-6 lg:px-8 pt-4">
+            <div className="relative rounded-2xl shadow-xl sm:overflow-hidden sm:rounded-2xl">
               <div className="absolute inset-0">
                 <img
                   className="h-full w-full object-cover"
@@ -32,7 +34,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-red-900 to-gray-700 mix-blend-multiply" />
               </div>
-              <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+              <div className="relative px-2 py-4 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                 <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
                   <span className="block text-white">Olympique de béja</span>
                 </h1>
@@ -47,6 +49,7 @@ export default function Home() {
 
           {/* Feature section with screenshot */}
           <div className="relative py-16 sm:py-24 lg:py-32">
+          
             <div className="mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
               <div>
                 <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">
@@ -61,20 +64,65 @@ export default function Home() {
                 />
                 <p className='text-2xl font-semibold text-left pb-4'>
                 Durant la période où la ville de Béja est placée sous le protectorat français, comme le reste du pays, les activités sportives s'organisent en fonction des communautés. Ainsi, il existe deux équipes dont l'une accueille les joueurs de confession juive et l'autre regroupe les Italiens, d'où l'idée de fonder une équipe de football pour les Tunisiens musulmans. Le club est prêt à exercer ses activités dès 1920 mais il est contesté par les autorités du protectorat car, à cette époque, tout club tunisien n'a le droit d'exister qu'avec l'autorisation des autorités. C'est donc en 1929 que Mahmoud Mnakbi, aux côtés d'autres personnalités, décide de créer une équipe de football sous le nom de l'Olympique de Béja et portant les couleurs blanc, noire et rouge.
-                <br /> <br />
-                L'équipe accède en division nationale à l'issue de la saison 1984-1985 et s'y installe durant 21 ans. Elle connaît la rétrogradation au terme de la saison 2004-2005, après que la Fédération tunisienne de football a enlevé trois points après un match contre l'Étoile olympique La Goulette Kram. Après la saison 2006-2007, elle retourne en division nationale. En 1993, le club remporte sa première coupe de Tunisie face à l'Avenir sportif de La Marsa, avec des joueurs comme Haykel Guezmir (gardien), Karim Rihani, Béchir Homri, Khaled Jmai, Nabil Bechaouech, Aziz Dridi, Said Kouki, Maher Sdiri, Nabil Kouki, Hédi Mokrani et Zied Lyouzbachi. En 1995, après la finale de la coupe de Tunisie perdue contre le Club sportif sfaxien (2-1), l'Olympique de Béja remporte la Supercoupe de Tunisie de football contre la même équipe.
-                <br /> <br />
-                En 1999, elle participe pour la première fois à la coupe arabe des clubs champions en Égypte ; un match joué contre l'équipe d'Al Ahly au Caire (1-1) marque la mémoire des supporters béjaois. En 2010, le club prend sa revanche de la finale de 1995, en remportant grâce à un but de Mehdi Harb la coupe de Tunisie face au Club sportif sfaxien.
-                <br /> <br />
-                En 2005, après vingt ans parmi l'élite, le club subit sa première rétrogradation en Ligue II. Il y passe une seule saison et revient en Ligue I puis rétrograde à nouveau en 2014 avant de retrouver sa place en Ligue I à l'issue de la saison 2015-2016. Le club n’arrive pas à garder sa place parmi les élites en multipliant les descentes en Ligue II.
+                
+                <br />{!readMore && <span className='cursor-pointer text-red-500' onClick={()=>setReadMore(true)}>lire plus...</span>} <br />
+                
+                {
+                  readMore && 
+                  <>
+                    L'équipe accède en division nationale à l'issue de la saison 1984-1985 et s'y installe durant 21 ans. Elle connaît la rétrogradation au terme de la saison 2004-2005, après que la Fédération tunisienne de football a enlevé trois points après un match contre l'Étoile olympique La Goulette Kram. Après la saison 2006-2007, elle retourne en division nationale. En 1993, le club remporte sa première coupe de Tunisie face à l'Avenir sportif de La Marsa, avec des joueurs comme Haykel Guezmir (gardien), Karim Rihani, Béchir Homri, Khaled Jmai, Nabil Bechaouech, Aziz Dridi, Said Kouki, Maher Sdiri, Nabil Kouki, Hédi Mokrani et Zied Lyouzbachi. En 1995, après la finale de la coupe de Tunisie perdue contre le Club sportif sfaxien (2-1), l'Olympique de Béja remporte la Supercoupe de Tunisie de football contre la même équipe.
+                    <br /> <br />
+                    En 1999, elle participe pour la première fois à la coupe arabe des clubs champions en Égypte ; un match joué contre l'équipe d'Al Ahly au Caire (1-1) marque la mémoire des supporters béjaois. En 2010, le club prend sa revanche de la finale de 1995, en remportant grâce à un but de Mehdi Harb la coupe de Tunisie face au Club sportif sfaxien.
+                    <br /> <br />
+                    En 2005, après vingt ans parmi l'élite, le club subit sa première rétrogradation en Ligue II. Il y passe une seule saison et revient en Ligue I puis rétrograde à nouveau en 2014 avant de retrouver sa place en Ligue I à l'issue de la saison 2015-2016. Le club n’arrive pas à garder sa place parmi les élites en multipliant les descentes en Ligue II.
+                  </>
+                }
+                 
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="relative overflow-hidden pt-16 pb-32 bg-red-900 bg-opacity-50">
+          <div className="relative overflow-hidden pt-16 pb-32  bg-opacity-50">
             <h1 className='text-center text-4xl sm:text-5xl text-white font-bold'>Palmares</h1>
-            <div className="relative">
+            <div class="container mt-4 mx-auto ">
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Coupe_de_Tunisie_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
+                  <div class="m-3">
+                    <h2 class="text-lg mb-2 text-white font-semibold">Coupe de Tunisie (3)</h2>
+                  <p class="font-light font-mono text-sm text-white hover:text-gray-900 transition-all duration-200">
+                    Vainqueur : 1993, 2010, 2023
+                  </p>
+                  </div>
+                </div>
+                <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Supercoupe_de_Tunisie_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
+                  <div class="m-3">
+                    <h2 class="text-lg mb-2 text-white font-semibold">Supercoupe de Tunisie (1)</h2>
+                  <p class="font-light font-mono text-sm text-white hover:text-gray-900 transition-all duration-200">
+                    Vainqueur : 1995
+                    Finaliste : 1995, 1998
+                  </p>
+                  </div>
+                </div>
+                <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Coupe_de_la_Ligue_tunisienne_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
+                  <div class="m-3">
+                    <h2 class="text-lg mb-2 text-white font-semibold">Coupe de la Ligue tunisienne</h2>
+                  <p class="font-light font-mono text-sm text-white hover:text-gray-900 transition-all duration-200">
+                    Finaliste : 2003, 2004
+                  </p>
+                  </div>
+                </div>
+                <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Championnat_de_Tunisie_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
+                  <div class="m-3">
+                    <h2 class="text-lg mb-2 text-white font-semibold">Championnat de Tunisie D2 (3)</h2>
+                  <p class="font-light font-mono text-sm text-white hover:text-gray-900 transition-all duration-200">
+                    Champion : 1985, 2006, 2020
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="relative">
               <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
                 <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
                   <div>
@@ -167,8 +215,8 @@ export default function Home() {
                     />
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> 
+            </div>*/}
           </div>
           <div className='container mx-auto'> 
             <h1 className='text-4xl text-white font-semibold my-8 underline'>Personnalités</h1>
