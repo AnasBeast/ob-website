@@ -5,26 +5,26 @@ const Footer = () => {
     const footerNavigation = {
         solutions: [
           { name: 'Marketing', href: '#' },
-          { name: 'Analytics', href: '#' },
+          { name: 'Analytique', href: '#' },
           { name: 'Commerce', href: '#' },
-          { name: 'Insights', href: '#' },
+          { name: 'Connaissances', href: '#' },
         ],
         support: [
-          { name: 'Pricing', href: '#' },
+          { name: 'Tarification', href: '#' },
           { name: 'Documentation', href: '#' },
           { name: 'Guides', href: '#' },
-          { name: 'API Status', href: '#' },
+          { name: 'API Statut', href: '#' },
         ],
         company: [
-          { name: 'About', href: '#' },
+          { name: 'À propos', href: '#' },
           { name: 'Blog', href: '#' },
-          { name: 'Press', href: '#' },
-          { name: 'Partners', href: '#' },
+          { name: 'Presse', href: '#' },
+          { name: 'Les partenaires', href: '#' },
         ],
         legal: [
-          { name: 'Claim', href: '#' },
-          { name: 'Privacy', href: '#' },
-          { name: 'Terms', href: '#' },
+          { name: 'Réclamation', href: '#' },
+          { name: 'Confidentialité', href: '#' },
+          { name: 'Conditions', href: '#' },
         ],
         social: [
           {
@@ -144,7 +144,7 @@ const Footer = () => {
           </div>
           <div className="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 className="text-base font-medium text-red-600">Company</h3>
+              <h3 className="text-base font-medium text-red-600">Entreprise</h3>
               <ul role="list" className="mt-4 space-y-4">
                 {footerNavigation.company.map((item) => (
                   <li key={item.name}>
@@ -156,7 +156,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="mt-12 md:mt-0">
-              <h3 className="text-base font-medium text-red-600">Legal</h3>
+              <h3 className="text-base font-medium text-red-600">Juridique</h3>
               <ul role="list" className="mt-4 space-y-4">
                 {footerNavigation.legal.map((item) => (
                   <li key={item.name}>
@@ -172,7 +172,7 @@ const Footer = () => {
       </div>
       <div className="mt-12 border-t border-gray-200 py-8">
         <p className="text-base text-white xl:text-center">
-          &copy; 2023 Olympique de Béja, Inc. All rights reserved.
+          &copy; 2023 Olympique de Béja, Inc. Tous les droits sont réservés.
         </p>
       </div>
     </div>

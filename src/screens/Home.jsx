@@ -84,15 +84,16 @@ export default function Home() {
           </div>
 
           <div className="relative overflow-hidden pt-16 pb-32  bg-opacity-50">
-            <h1 className='text-center text-4xl sm:text-5xl text-white font-bold'>Palmares</h1>
-            <div class="container mt-4 mx-auto ">
-              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div class="container mt-4 mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+              <h1 className='text-4xl font-bold tracking-tight text-black sm:text-5xl text-center'>Palmares</h1>
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-2/3 mx-auto">
                 <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Coupe_de_Tunisie_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
                   <div class="m-3">
                     <h2 class="text-lg mb-2 text-white font-semibold">Coupe de Tunisie (3)</h2>
                   <p class="font-light font-mono text-sm text-white hover:text-gray-900 transition-all duration-200">
                     Vainqueur : 1993, 2010, 2023
                   </p>
+                  <img src={require("../assets/images/coupe-de-tunisie-trophée.jpg")} alt="" className='mt-4 rounded-lg w-full h-52'/>
                   </div>
                 </div>
                 <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Supercoupe_de_Tunisie_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
@@ -102,14 +103,19 @@ export default function Home() {
                     Vainqueur : 1995
                     Finaliste : 1995, 1998
                   </p>
+                  <img src={require("../assets/images/supercoupe-tunisie.jpg")} alt="" className='mt-4 rounded-lg w-full h-52'/>
                   </div>
                 </div>
+                
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-2/3 mx-auto">
                 <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Coupe_de_la_Ligue_tunisienne_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
                   <div class="m-3">
                     <h2 class="text-lg mb-2 text-white font-semibold">Coupe de la Ligue tunisienne</h2>
                   <p class="font-light font-mono text-sm text-white hover:text-gray-900 transition-all duration-200">
                     Finaliste : 2003, 2004
                   </p>
+                  <img src={require("../assets/images/Coupe-de-Tunisie.jpg")} alt="" className='mt-4 rounded-lg w-full h-52'/>
                   </div>
                 </div>
                 <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Championnat_de_Tunisie_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
@@ -118,6 +124,7 @@ export default function Home() {
                   <p class="font-light font-mono text-sm text-white hover:text-gray-900 transition-all duration-200">
                     Champion : 1985, 2006, 2020
                   </p>
+                  <img src={require("../assets/images/download.jpg")} alt="" className='mt-4 rounded-lg w-full h-52'/>
                   </div>
                 </div>
               </div>
@@ -218,8 +225,8 @@ export default function Home() {
               </div> 
             </div>*/}
           </div>
-          <div className='container mx-auto'> 
-            <h1 className='text-4xl text-white font-semibold my-8 underline'>Personnalités</h1>
+          <div className='container mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8 py-4'> 
+            <h1 className='text-4xl font-bold tracking-tight text-black sm:text-5xl text-center mb-4'>Personnalités</h1>
             <Perso/>
           </div>
           {/* <Perso/> */}

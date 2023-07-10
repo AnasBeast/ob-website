@@ -31,7 +31,6 @@ export default function Perso() {
       <SwiperSlide><img src={require("../assets/images/perso3.jpg")} alt="" className="w-24 h-24 md:h-72 md:w-72" /></SwiperSlide>
       <SwiperSlide><img src={require("../assets/images/perso4.jpg")} alt="" className="w-24 h-24 md:h-72 md:w-72" /></SwiperSlide>
       <SwiperSlide><img src={require("../assets/images/perso5.jpg")} alt="" className="w-24 h-24 md:h-72 md:w-72" /></SwiperSlide>
-      ...
     </Swiper>
   );
 };
