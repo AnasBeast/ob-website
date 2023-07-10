@@ -38,7 +38,7 @@ export default function Players() {
         </div>
 
         <div class="flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16 ">
-          <h2 class="text-3xl font-semibold leading-tight tracking-tighttext-white underline">
+          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-white underline">
             Gardiens
           </h2>
           <div class="-my-4 divide-y divide-gray-500">
