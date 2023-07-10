@@ -39,19 +39,35 @@ export default function Home() {
                   <span className="block text-white">Olympique de béja</span>
                 </h1>
                 <p className="mx-auto mt-6 max-w-lg text-center text-xl text-red-200 sm:max-w-3xl">
-                  Website non officiel de l'équipe de football de béja.
+                  Siteweb non officiel de l'équipe de football de béja.
                 </p>
 
               </div>
             </div>
           </div>
         </div>
+        <div id="docs-sidebar" class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed z-[60] w-80 bg-white bg-opacity-70 border-r border-gray-200 py-10 px-8 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:z-10 dark:scrollbar-y ">
+          <button type="button" class="ml-auto flex justify-end lg:hidden text-black hover:text-gray-600" data-hs-overlay="#docs-sidebar" aria-controls="docs-sidebar" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle Navigation</span>
+            <svg class="w-5 h-5" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+          </button>
 
+          <nav id="sidebar-nav" class="relative space-y-8">
+            <ul class="space-y-2 border-l-2 border-slate-100 dark:border-slate-800" data-hs-scrollspy="#scrollspy">
+              <li><a class="block py-1 pl-4 -ml-px border-l-2 border-transparent text-lg text-black hover:border-slate-400 hover:text-slate-900 hs-scrollspy-active:font-medium hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400 active font-semibold" href="#historique">• Historique de l'équipe</a></li>
+              <li><a class="block py-1 pl-4 -ml-px border-l-2 border-transparent text-lg text-black hover:border-slate-400 hover:text-slate-900 hs-scrollspy-active:font-medium hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400 font-semibold" href="#palmares">• Palmarès</a></li>
+              <li><a class="block py-1 pl-4 -ml-px border-l-2 border-transparent text-lg text-black hover:border-slate-400 hover:text-slate-900 hs-scrollspy-active:font-medium hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400 font-semibold" href="#perso">• Personnalités</a></li>
+
+            </ul>
+          </nav>
+        </div>
           {/* Feature section with screenshot */}
           <div className="relative py-16 sm:py-24 lg:py-32">
           
             <div className="mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-              <div>
+              <div id='historique'>
                 <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">
                   Historique de l'équipe
                 </p>
@@ -84,8 +100,8 @@ export default function Home() {
           </div>
 
           <div className="relative overflow-hidden pt-16 pb-32  bg-opacity-50">
-            <div class="container mt-4 mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-              <h1 className='text-4xl font-bold tracking-tight text-black sm:text-5xl text-center'>Palmares</h1>
+            <div id='palmares' class="container mt-4 mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+              <h1 className='text-4xl font-bold tracking-tight text-black sm:text-5xl text-center'>Palmarès</h1>
               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-2/3 mx-auto">
                 <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Coupe_de_Tunisie_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
                   <div class="m-3">
@@ -225,7 +241,7 @@ export default function Home() {
               </div> 
             </div>*/}
           </div>
-          <div className='container mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8 py-4'> 
+          <div id='perso' className='container mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8 py-4'> 
             <h1 className='text-4xl font-bold tracking-tight text-black sm:text-5xl text-center mb-4'>Personnalités</h1>
             <Perso/>
           </div>
