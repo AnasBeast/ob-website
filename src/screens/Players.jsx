@@ -38,7 +38,7 @@ export default function Players() {
         </div>
 
         <div class="flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16 ">
-          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-gray-900 dark:text-white underline">
+          <h2 class="text-3xl font-semibold leading-tight tracking-tighttext-white underline">
             Gardiens
           </h2>
           <div class="-my-4 divide-y divide-gray-500">
@@ -46,7 +46,7 @@ export default function Players() {
               <p class="w-8 text-lg font-normal text-white sm:text-right shrink-0">
               33  
               </p>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="text-lg font-semibold text-white">
                 <a href="https://www.flashscore.com/player/ghanmi-zied/ILtGpIqG/" class="text-white hover:underline">Ghanmi Zied</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
@@ -63,7 +63,7 @@ export default function Players() {
             </div>
           </div>
 
-          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-gray-900 dark:text-white mt-8 underline">
+          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-white mt-8 underline">
             Défenseurs
           </h2>
           <div class="-my-4 divide-y divide-gray-500">
@@ -128,7 +128,7 @@ export default function Players() {
             </div>
           </div>
 
-          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-gray-900 dark:text-white mt-8 underline">
+          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-white mt-8 underline">
             Milieux de terrain
           </h2>
           <div class="-my-4 divide-y divide-gray-500">
@@ -223,7 +223,7 @@ export default function Players() {
             </div>
           </div>
 
-          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-gray-900 dark:text-white mt-8 underline">
+          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-white mt-8 underline">
             Attaquants
           </h2>
           <div class="-my-4 divide-y divide-gray-500">
@@ -258,7 +258,7 @@ export default function Players() {
             </div>
           </div>
 
-          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-gray-900 dark:text-white mt-8 underline">
+          <h2 class="text-3xl font-semibold leading-tight tracking-tight text-white mt-8 underline">
             Coach
           </h2>
           <div class="-my-4 divide-y divide-gray-500">
