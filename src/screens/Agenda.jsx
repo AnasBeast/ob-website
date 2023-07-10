@@ -44,7 +44,7 @@ export default function Agenda() {
                 24.06.2023 16:30
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/match/hbXl7GbQ/#/match-summary" class="hover:underline">US Tataouine</a>
+                <a href="https://www.flashscore.com/match/hbXl7GbQ/#/match-summary" class="text-white hover:underline">US Tataouine</a>
               </h3>
               <img src={require("../assets/images/tatouine.png")} alt="" className='h-20 w-20 ml-auto'/>
             </div>
@@ -54,7 +54,7 @@ export default function Agenda() {
               26.06.2023 16:30
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/match/8WYLaYj0/#/match-summary" class="hover:underline">Monastir</a>
+                <a href="https://www.flashscore.com/match/8WYLaYj0/#/match-summary" class="text-white hover:underline">Monastir</a>
               </h3>
               <img src={require("../assets/images/monastir.png")} alt="" className='h-20 w-20 ml-auto'/>
             </div>
@@ -64,7 +64,7 @@ export default function Agenda() {
                 29.06.2023 13:30
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/match/AeJKKZSP/#/match-summary" class="hover:underline">Etoile Sahel</a>
+                <a href="https://www.flashscore.com/match/AeJKKZSP/#/match-summary" class="text-white hover:underline">Etoile Sahel</a>
               </h3>
               <img src={require("../assets/images/etoile-sahel.png")} alt="" className='h-20 w-20 ml-auto'/>
             </div>

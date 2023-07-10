@@ -47,7 +47,7 @@ export default function Players() {
               33  
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/ghanmi-zied/ILtGpIqG/" class="hover:underline">Ghanmi Zied</a>
+                <a href="https://www.flashscore.com/player/ghanmi-zied/ILtGpIqG/" class="text-white hover:underline">Ghanmi Zied</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -57,7 +57,7 @@ export default function Players() {
               1
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/krir-achraf/f3OwZs4B/" class="hover:underline">Krir Achraf</a>
+                <a href="https://www.flashscore.com/player/krir-achraf/f3OwZs4B/" class="text-white hover:underline">Krir Achraf</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -72,7 +72,7 @@ export default function Players() {
               4  
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/agbozo-klousseh/C8UjCHNk/" class="hover:underline">Agbozo Klousseh</a>
+                <a href="https://www.flashscore.com/player/agbozo-klousseh/C8UjCHNk/" class="text-white hover:underline">Agbozo Klousseh</a>
               </h3>
               <img src={require("../assets/images/togo.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -82,7 +82,7 @@ export default function Players() {
               16
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/ben-mohamed-aziz/zZ56dGFQ/" class="hover:underline">Ben Mohamed Aziz</a>
+                <a href="https://www.flashscore.com/player/ben-mohamed-aziz/zZ56dGFQ/" class="text-white hover:underline">Ben Mohamed Aziz</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -92,7 +92,7 @@ export default function Players() {
               3
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/ben-rajeh-mehrez/E9nvs9uB/" class="hover:underline">Ben Rajeh Mehrez</a>
+                <a href="https://www.flashscore.com/player/ben-rajeh-mehrez/E9nvs9uB/" class="text-white hover:underline">Ben Rajeh Mehrez</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -102,7 +102,7 @@ export default function Players() {
               17
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/derbali-rayane/d6h7nvF3/" class="hover:underline">Derbali Rayane</a>
+                <a href="https://www.flashscore.com/player/derbali-rayane/d6h7nvF3/" class="text-white hover:underline">Derbali Rayane</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -112,7 +112,7 @@ export default function Players() {
               14
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/ferjani-najeh/zciBobU9/" class="hover:underline">Ferjani Najeh</a>
+                <a href="https://www.flashscore.com/player/ferjani-najeh/zciBobU9/" class="text-white hover:underline">Ferjani Najeh</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -122,7 +122,7 @@ export default function Players() {
               25
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/kasagga-richard/tUajviPT/" class="hover:underline">Kasagga Richard</a>
+                <a href="https://www.flashscore.com/player/kasagga-richard/tUajviPT/" class="text-white hover:underline">Kasagga Richard</a>
               </h3>
               <img src={require("../assets/images/uganda.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -137,7 +137,7 @@ export default function Players() {
               22  
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/absi-mohamed/t09EtGL8/" class="hover:underline">Absi Mohamed</a>
+                <a href="https://www.flashscore.com/player/absi-mohamed/t09EtGL8/" class="text-white hover:underline">Absi Mohamed</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -147,7 +147,7 @@ export default function Players() {
               20
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/ba-lamine/AXUIDYRN/" class="hover:underline">Bah Mohamadou</a>
+                <a href="https://www.flashscore.com/player/ba-lamine/AXUIDYRN/" class="text-white hover:underline">Bah Mohamadou</a>
               </h3>
               <img src={require("../assets/images/mali.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -157,7 +157,7 @@ export default function Players() {
               12
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/bouabid-yassine/4QjE2pG2/" class="hover:underline">Bouabid Yassine</a>
+                <a href="https://www.flashscore.com/player/bouabid-yassine/4QjE2pG2/" class="text-white hover:underline">Bouabid Yassine</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -167,7 +167,7 @@ export default function Players() {
               6
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/chihi-skander/2Vw4mKac/" class="hover:underline">Chihi Skander</a>
+                <a href="https://www.flashscore.com/player/chihi-skander/2Vw4mKac/" class="text-white hover:underline">Chihi Skander</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -177,7 +177,7 @@ export default function Players() {
               4
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/coumbassa-ousmane/Wj3lScv2/" class="hover:underline">Coumbassa Ousmane</a>
+                <a href="https://www.flashscore.com/player/coumbassa-ousmane/Wj3lScv2/" class="text-white hover:underline">Coumbassa Ousmane</a>
               </h3>
               <img src={require("../assets/images/guinea.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -187,7 +187,7 @@ export default function Players() {
               8
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/derbali-mohamed-wael/8v7H7O9b/" class="hover:underline">Derbali Mohamed</a>
+                <a href="https://www.flashscore.com/player/derbali-mohamed-wael/8v7H7O9b/" class="text-white hover:underline">Derbali Mohamed</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -197,7 +197,7 @@ export default function Players() {
               21
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/jerbi-mohamed-amine/dYlnvjLf/" class="hover:underline">Jerbi Mohamed</a>
+                <a href="https://www.flashscore.com/player/jerbi-mohamed-amine/dYlnvjLf/" class="text-white hover:underline">Jerbi Mohamed</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -207,7 +207,7 @@ export default function Players() {
               13
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/nalouti-rassem/rw5a8yZE/" class="hover:underline">Nalouti Rassem</a>
+                <a href="https://www.flashscore.com/player/nalouti-rassem/rw5a8yZE/" class="text-white hover:underline">Nalouti Rassem</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -217,7 +217,7 @@ export default function Players() {
               26
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/sarr-babacar/zPifIIEi/" class="hover:underline">Sarr Babacar</a>
+                <a href="https://www.flashscore.com/player/sarr-babacar/zPifIIEi/" class="text-white hover:underline">Sarr Babacar</a>
               </h3>
               <img src={require("../assets/images/guinea.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -232,7 +232,7 @@ export default function Players() {
               19
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/abdelli-souhaib/fNse1HNu/" class="hover:underline">Abdelli Souhaib</a>
+                <a href="https://www.flashscore.com/player/abdelli-souhaib/fNse1HNu/" class="text-white hover:underline">Abdelli Souhaib</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -242,7 +242,7 @@ export default function Players() {
               23
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/chouikh-malek/AcAVR0qE/" class="hover:underline">Chouikh Malek</a>
+                <a href="https://www.flashscore.com/player/chouikh-malek/AcAVR0qE/" class="text-white hover:underline">Chouikh Malek</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -252,7 +252,7 @@ export default function Players() {
               29
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/saidi-othman/dhOdtc5F/" class="hover:underline">Saidi Othman</a>
+                <a href="https://www.flashscore.com/player/saidi-othman/dhOdtc5F/" class="text-white hover:underline">Saidi Othman</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
@@ -267,7 +267,7 @@ export default function Players() {
                
               </p>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                <a href="https://www.flashscore.com/player/khcharem-jamel/ED3iLta7/" class="hover:underline">Khcharem Jamel</a>
+                <a href="https://www.flashscore.com/player/khcharem-jamel/ED3iLta7/" class="text-white hover:underline">Khcharem Jamel</a>
               </h3>
               <img src={require("../assets/images/tunisie.png")} alt="" className='h-14 w-auto ml-auto'/>
             </div>
