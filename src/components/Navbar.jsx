@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 const navigation = [
     { name: 'Acceuil', href: '/' },
     { name: 'Agenda', href: '/Agenda' },
+    { name: 'Joueurs', href: '/Players' },
     { name: 'Photos', href: '/Photos' },
     { name: 'Nous Contacter', href: '/Contact' },
 ]
