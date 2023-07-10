@@ -19,7 +19,7 @@ export default function Players() {
       <NavBar/>
       <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24 bg-black bg-opacity-70">
         <div class="max-w-3xl mx-auto text-center ">
-          <h2 class="text-5xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
+          <h2 class="text-5xl font-extrabold leading-tight tracking-tight text-white">
             Joueurs
           </h2>
 
