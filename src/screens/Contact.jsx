@@ -3,7 +3,7 @@ import NavBar from "../components/Navbar"
 
 
 export default function Contact() {
-  document.title = `Olympique de béja | Contact`
+  document.title = `Olympique de béja | Nous Contacter`
   return (
     <div>
       <section className="bg-black bg-opacity-50 body-font relative">

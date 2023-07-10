@@ -16,7 +16,7 @@ import { useState } from 'react'
 
 
 export default function Home() {
-  document.title = "Olympique de Béja | Home";
+  document.title = "Olympique de Béja | Acceuil";
   const [readMore,setReadMore] = useState(false)
   return (
     <div >
