@@ -19,7 +19,7 @@ export default function Login() {
           </div>
           <div className="px-4 sm:w-2/3 mx-auto">
             <div className="flex flex-wrap flex-col items-center -m-2"> 
-              <div className="p-2 w-1/2">
+              <div className="p-2 w-2/3 sm:w-1/2">
                 <div className="relative">
                   <label
                     for="email"
@@ -36,7 +36,7 @@ export default function Login() {
                   />
                 </div>
               </div>
-              <div className="p-2 w-1/2">
+              <div className="p-2 w-2/3 sm:w-1/2">
                 <div className="relative">
                   <label for="name" className="leading-7 text-sm text-white">
                     Mot De Passe
@@ -46,7 +46,7 @@ export default function Login() {
                     id="name"
                     name="name"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-red-500 ring-offset-transparen text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                    placeholder="passw@rd"
+                    placeholder="p@ssw0rd"
                   />
                 </div>
               </div>
