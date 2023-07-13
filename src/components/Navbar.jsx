@@ -76,7 +76,7 @@ const NavBar = () => {
             leaveFrom="opacity-100 scale-100"
             leaveTo="opacity-0 scale-95"
             >
-            <Popover.Panel focus className="absolute inset-x-0 top-0 origin-top transform p-2 transition md:hidden z-50">
+            <Popover.Panel focus className="absolute inset-x-0 top-0 origin-top transform p-2 transition md:hidden z-[61]">
                 <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
                 <div className="flex items-center justify-between px-5 pt-4">
                     <div>
