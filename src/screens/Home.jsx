@@ -46,6 +46,18 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div id="docs-sidebar" class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform relative z-[60] w-80 bg-white bg-opacity-70 border-r border-gray-200 py-10 px-8 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:z-10 dark:scrollbar-y left-full w-full mt-4 sm:hidden">
+
+          <nav id="sidebar-nav" class="relative space-y-8">
+            <ul class="space-y-2 border-l-2 border-slate-100 dark:border-slate-800" data-hs-scrollspy="#scrollspy">
+              <li><a class="block py-1 pl-4 -ml-px border-l-2 border-transparent text-lg text-black hover:border-slate-400 hover:text-slate-900 hs-scrollspy-active:font-medium hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400 active font-semibold" href="#historique">• Historique de l'équipe</a></li>
+              <li><a class="block py-1 pl-4 -ml-px border-l-2 border-transparent text-lg text-black hover:border-slate-400 hover:text-slate-900 hs-scrollspy-active:font-medium hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400 font-semibold" href="#palmares">• Palmarès</a></li>
+              <li><a class="block py-1 pl-4 -ml-px border-l-2 border-transparent text-lg text-black hover:border-slate-400 hover:text-slate-900 hs-scrollspy-active:font-medium hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400 font-semibold" href="#perso">• Personnalités</a></li>
+
+            </ul>
+          </nav>
+        </div>
+
         <div id="docs-sidebar" class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed z-[60] w-80 bg-white bg-opacity-70 border-r border-gray-200 py-10 px-8 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:z-10 dark:scrollbar-y ">
           <button type="button" class="ml-auto flex justify-end lg:hidden text-black hover:text-gray-600" data-hs-overlay="#docs-sidebar" aria-controls="docs-sidebar" aria-label="Toggle navigation">
             <span class="sr-only">Toggle Navigation</span>
@@ -102,7 +114,7 @@ export default function Home() {
           <div className="relative overflow-hidden pt-16 pb-32  bg-opacity-50">
             <div id='palmares' class="container mt-4 mx-auto bg-white bg-opacity-70 rounded-lg max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
               <h1 className='text-4xl font-bold tracking-tight text-black sm:text-5xl text-center'>Palmarès</h1>
-              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-2/3 mx-auto">
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-full sm:w-2/3 mx-auto">
                 <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Coupe_de_Tunisie_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
                   <div class="m-3">
                     <h2 class="text-lg mb-2 text-white font-semibold">Coupe de Tunisie (3)</h2>
@@ -124,7 +136,7 @@ export default function Home() {
                 </div>
                 
               </div>
-              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-2/3 mx-auto">
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-full sm:w-2/3 mx-auto">
                 <div onClick={()=>window.open('https://fr.wikipedia.org/wiki/Coupe_de_la_Ligue_tunisienne_de_football','_blank')} class="card bg-red-600 m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
                   <div class="m-3">
                     <h2 class="text-lg mb-2 text-white font-semibold">Coupe de la Ligue tunisienne</h2>

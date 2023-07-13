@@ -7,6 +7,7 @@ import Agenda from './screens/Agenda';
 import Photos from './screens/Photos';
 import Contact from './screens/Contact';
 import Players from './screens/Players';
+import Login from './screens/Login';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Players" element={<Players />} />
         <Route path="/Photos" element={<Photos />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Login" element={<Login />} />
 
       </Routes>
     </Router>
