@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="docs-sidebar" class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform relative z-[60] w-80 bg-white bg-opacity-70 border-r border-gray-200 py-10 px-8 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:z-10 dark:scrollbar-y left-full w-full mt-4 sm:hidden">
+        <div id="docs-sidebar" class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform relative z-[60] bg-white bg-opacity-70 border-r border-gray-200 py-10 px-8 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:z-10 dark:scrollbar-y left-full w-full mt-4 sm:hidden">
 
           <nav id="sidebar-nav" class="relative space-y-8">
             <ul class="space-y-2 border-l-2 border-slate-100 dark:border-slate-800" data-hs-scrollspy="#scrollspy">
